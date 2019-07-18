@@ -23,19 +23,19 @@ func main() {
 	i32 = 1<<31 - 1
 	ui32 = 1<<32 - 1
 
-	//var array = []int{5, 2, 2, 3}
-	//fmt.Println("this is my integer", i32)
-	//fmt.Print("this is my integer: %v, %v, %v", array, 123, 123)
-	//
-	//fmt.Println("this is my unsigned integer", ui32)
-	//
-	//var runes []rune
-	//for i := 0; i < 100; i++ {
-	//	runes = append(runes, 's')
-	//	//Ctrl+space  вызовет меню
-	//}
-	//s := "Ainura"
-	//fmt.Println([]rune(s))
+	var array = []int{5, 2, 2, 3}
+	fmt.Println("this is my integer", i32)
+	fmt.Print("this is my integer: %v, %v, %v", array, 123, 123)
+
+	fmt.Println("this is my unsigned integer", ui32)
+
+	var runes []rune
+	for i := 0; i < 100; i++ {
+		runes = append(runes, 's')
+		//Ctrl+space  вызовет меню
+	}
+	s := "Ainura"
+	fmt.Println([]rune(s))
 
 	var arr1 = []int{1, -31, 5, 0}
 
